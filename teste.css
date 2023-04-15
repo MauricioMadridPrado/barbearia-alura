@@ -1,0 +1,176 @@
+body{
+    margin: 0 30px
+}
+
+.cabecalho {
+
+    width: auto;
+    background: #ccc;
+    margin-top: 30px;
+    border-radius: 50px 50px 0px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logoPreto {
+    margin: 0 0 0 30px;
+}
+
+.navegacao {
+
+}
+.listaNavegacao{
+
+}
+
+.itemNavegacao{
+    display: inline;
+    font-size: 30px;
+    margin: 0 0 0 50px;
+}
+.itemNavegacao a{
+    text-decoration: none;
+    color: #000;
+}
+.itemNavegacao a:hover {
+
+    transition: 500ms;
+    font-size: 40px;
+    color: #f1a000;
+}
+
+main {
+
+    display: flex;
+    flex-direction: column;
+    margin: 50px 35%;
+    min-width: 450px;
+}
+
+.displayBlock {
+    display: block;
+    
+}
+
+.rotuloFormulario{
+    margin: 20px 0 0 0;
+
+}
+.inputTexto {
+    font-size: 20px;
+    width: 300px;
+
+}
+
+.areaTexto {
+    width: 100%;
+    min-width: 300px;
+}
+
+.formMensagem {
+    font-size: 20px;
+    margin: 20px 0 0 0;
+}
+
+.radioArea {
+    margin: 20px 0;
+}
+.radioArea input {
+
+    margin: 5px 0;
+}
+
+.enviar {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 50px;
+
+}
+
+.enviar:hover {
+    
+    transition: 500ms;
+    background: black;
+    color: wheat;
+    border: none;
+}
+.enviar:active {
+    
+    background: #ccc;
+    color: #f1a000;
+    border: none;
+}
+
+.rodape{
+    width: auto;
+    background: url("bg.jpg");
+    margin: 30px -30px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.logoRodape {
+
+    max-height: fit-content;
+    max-width: fit-content;
+ 
+    
+}
+.textoRodape {
+
+    color:#fff;
+}
+
+.checkbox {
+    margin: 20px 5px;
+    white-space: nowrap;
+}
+.textoCheckbox {
+ 
+}
+
+
+@media (max-width:800px) {
+    main{
+   
+        margin: 30px 25%;
+        
+    }
+    .enviar {
+        width: 100px;
+    }
+    .cabecalho {
+        justify-content: center;
+        margin: 30px auto;
+    }
+
+    .itemNavegacao {
+        margin: 0;
+    }
+    .areaTexto{
+        
+        max-width: 300px;
+    }
+}
+    @media (max-width:450px) { 
+        .cabecalho{
+           
+            height: 100px;
+            border-radius: 30px;
+            justify-content: center;
+            margin: 0 0 0 0;
+            padding: 0px;
+        }
+        .logoPreto {
+            display: none;
+        }
+}
+
+::placeholder {
+    font-size: 20px;
+    
+}

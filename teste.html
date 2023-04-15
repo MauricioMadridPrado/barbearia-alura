@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <title>tesete</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="teste.css">
+
+</head>
+<body>
+
+    <header class="cabecalho">
+
+        <img class="logoPreto" src="logo.png" alt="Logo Alura">
+
+        <nav class="navegacao">
+            <ul class="listaNavegacao">
+                <li class="itemNavegacao"><a href="">Home</a></li>
+                <li class="itemNavegacao"><a href="">Produtos</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <form class="formulario">
+
+            <label class="rotuloFormulario displayBlock" for="nomeesobrenome">Nome e Sobrenome</label>
+            <input class= "inputTexto displayBlock" type="text" id="nomeesobrenome" required>
+
+            <label class="rotuloFormulario displayBlock" for="email">Email</label>
+            <input class= "inputTexto displayBlock" type="email" id="email" placeholder="seuemail@dominio.com" required>
+
+            <label class="rotuloFormulario displayBlock" for="telefone">Telefone</label>
+            <input class= "inputTexto displayBlock" type="tel" id="telefone" placeholder="(xx) xxxxx-xxxx" required>
+            
+            <label class="rotuloFormulario displayBlock" for="mensagem">Mensagem</label>
+            <textarea class= "areaTexto displayBlock"  cols = "40" rows="5" id="mensagem" required>  </textarea>
+
+            <p class="formMensagem"> Como prefere o nosso contato? </p>
+
+            <div class="radioArea">
+                
+                <label class= "displayBlock" for="telefone"><input type="radio" for="telefone" name ="contato"> Telefone</label>
+
+                <label  class= "displayBlock" for="whatsapp"><input type="radio" for="whatsapp" name ="contato" checked> Whatsapp</label>
+
+                <label class= "displayBlock" for="email"><input type="radio" for="email" name ="contato"> Email</label>
+            </div>
+
+            <input type="checkbox" class="checkbox"><label class="textoCheckbox"for="checkbox">Gostaria de 
+                receber nossas novidades por email?</label>
+
+                
+            <input class = "displayBlock enviar " type="submit" id="enviar">
+        </form>
+
+
+    </main>
+
+    <footer class="rodape">
+        <img class="logoRodape" src="logo-branco.png" alt="logo branco">
+        <p class="textoRodape">© Copyright Barbearia Alura - 2023 </p>
+    </footer>
+</body>
+
+
+</html>

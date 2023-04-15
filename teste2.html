@@ -1,0 +1,119 @@
+<!DOCTYPE html> 
+<html>
+    <head> 
+        <meta charset="UTF-8">
+        <title>teste2</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="teste2.css">
+    </head>
+
+    <body>
+        
+    
+        <header class="cabecalho">
+
+            <img class= "imgLogo" src="logo.png" alt="Logo da Barbearia">
+
+            <nav class="navegacao">
+
+                <ul class="listaNavegacao">
+                    <li class="itemNavegacao"> <a href="">Home</a></li>
+                    <li class="itemNavegacao"> <a href="">Produtos</a></li>
+                </ul>
+                
+            </nav>
+
+          
+        </header>
+        
+        <div class="banner">
+        <img class= "imgBanner" src="banner.jpg" alt="">
+        </div>
+
+
+        <form class="formulario">
+
+            <div class="areaFormulario">
+                <h1 class="titulo1">Formulario de contato</h1>
+                <label class="rotulo" for="nomeesobrenome">Nome e sobrenome</label>
+                <input class="entradaInformacao" type="text" id="nomeesobrenome" required >
+
+                <label class="rotulo" for="email">Email</label>
+                <input class="entradaInformacao" type="email" id="email" required placeholder="seuemail@dominio.com">
+
+                <label class="rotulo" for="telefone">Telefone</label>
+                <input class="entradaInformacao" type="tel" id="telefone" required placeholder="(xx) xxxxx-xxxx">
+
+                <label class="rotulo" for="mensagem">Digite sua mensagem</label>
+                <textarea class = "areaTexto"id="mensagem" cols="50" rows="5" required placeholder="Mensagem aqui"></textarea>
+                
+
+                
+
+                <div class="radioArea">
+
+                    <p class="msgContato">Qual a forma de contato?</p>
+
+                    <label for="telefone"> <input type="radio" id="telefone" name="contato" required> Telefone</label>
+                    
+                    <label for="email"> <input type="radio" id="email" name="contato" required> Email</label>
+
+                    <label for="whatsapp"> <input type="radio" id="whatsapp" name="contato" required checked> Whatsapp</label>
+                </div>
+                
+                <select class="qualHorario" name="qualHorario" id="qualHorario">
+
+                    <option value="manha">Manhã</option>
+                    <option value="tarde">Tarde</option>
+                    <option value="noite">Noite</option>
+
+                </select>
+
+
+                <div class="horarioArea"></div>
+                
+                <table class="tabelaHorario">
+
+                    <thead>
+                        
+                        <tr>
+                            <th>Dia</th>
+                            
+                            <th>Horário</th>
+                        </tr>
+                        
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Segunda-feira</td>
+                            <td>8h~20h</td>
+                        </tr>
+                        <tr>
+                            <td>Quarta-feira</td>
+                            <td>8h~20h</td>
+                        </tr>
+                        <tr>
+                            <td>Sexta-feira</td>
+                            <td>12h~20h</tr>
+                        </td>
+
+                    </tbody>
+
+                </table>
+                <input class="botaoEnviar" type="submit" >
+            </div>
+
+            
+
+        </form>
+        
+        <footer class="rodape">
+            <img class="logoRodape"src="logo-branco.png" alt="Logo barbearia alura">
+
+            <p class="copyrigth">&copy Copyright Barbearia Alura - 2023</p>
+        </footer>
+        
+    </body>
+
+</html>
